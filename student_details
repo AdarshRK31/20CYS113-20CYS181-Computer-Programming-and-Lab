@@ -1,0 +1,12 @@
+variables:tm,ns,avg
+avg=tm/ns
+tm=342,ns=5
+ Average  | Total_Mark  |  No_Of_students|  output   |explicit conversion             |
+ |int     |    int      |      int       |    68     |                                |
+ |double  |    double   |      double    |  68.400000|                                |
+ |double  |    int      |      int       | 68.000000 |                                |
+ |double  |    int      |      int       |  68.400000| both int is converted to double| 
+ |double  |    int      |      int       | 68.400000 |output is converted to double   |
+ |int     |   double    |      int       |    68     |                                |
+ |int     |    int      |      double    |    68     |                                | 
+  -------------------------------------------------------------------------------------
